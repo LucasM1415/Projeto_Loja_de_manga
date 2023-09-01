@@ -1,0 +1,80 @@
+/*Header*/
+.h {
+    background-color: #333333;
+    height: 25px;
+}
+/*Menu lateral*/
+.list-group-item.active {
+    background-color: transparent;
+    border-color: transparent;
+}
+.list-group-item-action {
+    cursor: pointer;
+}
+
+/* Tela de visualização dos cards */
+#categoryContent {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+/*Opção Seleção*/
+.list-group-item-action.selecao.active {
+    background-color: red;
+    color: white; 
+}
+/* Estilo para as outras abas */
+.list-group-item-action:not(.selecao).active {
+    background-color: initial; 
+    color: black;
+}
+
+/*Introdução*/
+.Introdução {
+    margin-top: 60px;
+}
+.Introdução h2 {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+}
+.Introdução p {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+}
+
+
+/* Cards */
+.card-img-top {
+    width: 300px;
+    height: 300px; 
+    object-fit: cover; 
+}
+
+/*Botão "Comprar"*/
+.btn-comprar {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-comprar:hover {
+    background-color: darkred;
+}
+/* Footer */
+.custom-footer {
+    background-color: #333333;
+    color: white;
+    padding: 5px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 15px;
+}
