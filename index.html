@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <title>Loja de Mangás</title>
+</head>
+<body>
+    <header class="h"></header>
+    
+    <div class="container mt-5">
+        <div class="row align-items-center">
+            <div class="col-md-2">
+                <img src="https://i.imgur.com/kTXskVa.png" alt="Logo" class="img-fluid">
+            </div>
+            <div class="col-md-10">
+                <form class="form-inline">
+                    <input class="form-control mr-sm-2 flex-grow-1" type="search" placeholder="Pesquise os mangás aqui" aria-label="Search">
+                    <button class="btn btn-outline-dark my-2 my-sm-0" type="submit" style="background-color: red; color: white;">Buscar</button>
+                </form>
+                <nav class="navbar navbar-expand-sm navbar-light rounded border border-dark" style="background-color: red; margin-top: 5px;">
+                    <div class="container">
+                        <div class="collapse navbar-collapse" id="navbarNavBottom">
+                            <ul class="navbar-nav mx-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#" style="color: white;">Minha Conta</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" style="color: white;">Minhas Listas</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" style="color: white;">Meus Pedidos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" style="color: white;">Central de atendimento</a>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <main class="main-content">
+        <div class="container mt-4">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action" onclick="showCategory('selecao')" style="background-color: red; color: white;">Seleção</a>
+                    <a href="#" class="list-group-item list-group-item-action" onclick="showCategory('shonen')">Mangas Shonen</a>
+                    <a href="#" class="list-group-item list-group-item-action" onclick="showCategory('shojo')">Mangas Shojo</a>
+                    <a href="#" class="list-group-item list-group-item-action" onclick="showCategory('seinen')">Mangas Seinen</a>
+                    <a href="#" class="list-group-item list-group-item-action" onclick="showCategory('romance')">Mangas de Romance</a>
+                    <a href="#" class="list-group-item list-group-item-action" onclick="showCategory('terror')">Mangas de Terror</a>
+                    <a href="#" class="list-group-item list-group-item-action" onclick="showCategory('comedia')">Mangas de Comédia</a>
+                    </div>
+                </div>
+                <div class="col-md-9" id="categoryContent">
+                    <!-- Tela dinâmica -->
+                    <div class="Introdução"> 
+                        <h2>Bem Vindo!</h2>
+                        <p>Bem-vindo à nossa seleção de mangás! Aqui você encontrará os melhores títulos e histórias incríveis.</p>
+                    </div>
+                </div>
+            </div>
+        </div>   
+    </main>
+    
+    <footer class="custom-footer">
+        <div class="container text-center">
+            <p>© 2023 Nimee - Loja de Mangás. Todos os direitos reservados.</p>
+            <p>Endereço: Rua Manga, 123 - Cidade dos Mangás</p>
+            <p>Telefone: (123) 456-7890 | Email: contato@mangastore.com</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
