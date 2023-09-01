@@ -41,7 +41,7 @@ function showCategory(category) {
     
                 <div class="col-md-4 mb-4">
                 <div class="card">
-                    <img src="https://static.wikia.nocookie.net/onepiece/images/0/0e/Volume_1.png/revision/latest?cb=20140106204057&path-prefix=pt" class="card-img-top img-fluid rounded" alt="Manga Shonen 2">
+                    <img src="https://i.pinimg.com/originals/50/22/2e/50222e533fac64e629d4462b113423e2.png" class="card-img-top img-fluid rounded" alt="Manga Shonen 2">
                     <div class="card-body">
                         <h5 class="card-title">One Piece</h5>
                         <p class="card-text">Descrição do Manga.</p>
